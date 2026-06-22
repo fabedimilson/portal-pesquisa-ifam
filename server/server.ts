@@ -7,8 +7,14 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const getDirname = () => {
+  if (typeof __dirname !== 'undefined') return __dirname;
+  if (typeof import.meta !== 'undefined' && import.meta.url) {
+    return path.dirname(fileURLToPath(import.meta.url));
+  }
+  return process.cwd();
+};
+const __dirname_computed = getDirname();
 
 const prisma = new PrismaClient();
 const app = express();
@@ -17,15 +23,16 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json());
 
-// Setup Multer for file uploads (spreadsheets + PDFs)
-const upload = multer({ dest: 'uploads/' });
+// Setup Multer for file uploads (spreadsheets + PDFs) - use /tmp on Vercel
+const uploadDest = process.env.VERCEL ? '/tmp/uploads/' : 'uploads/';
+const upload = multer({ dest: uploadDest });
 
 // ─── Backup automático do SQLite ──────────────────────────────────────────────
 function autoBackupSQLite() {
   if (process.env.NODE_ENV === 'production' || process.env.VERCEL) return;
   try {
-    const dbPath = path.join(__dirname, '../prisma/dev.db');
-    const backupDir = path.join(__dirname, '../prisma/backups');
+    const dbPath = path.join(__dirname_computed, '../prisma/dev.db');
+    const backupDir = path.join(__dirname_computed, '../prisma/backups');
     if (!fs.existsSync(backupDir)) fs.mkdirSync(backupDir, { recursive: true });
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
     const backupPath = path.join(backupDir, `dev_${timestamp}.db`);
@@ -1453,7 +1460,7 @@ app.delete('/api/reports/:id', async (req, res) => {
 });
 
 // Servir arquivos de uploads (relatórios PDF)
-app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
+app.use('/uploads', express.static(path.join(__dirname_computed, process.env.VERCEL ? '../../tmp/uploads' : '../uploads')));
 
 // ─── 16. Infraestrutura de Autenticação (endpoints construídos, inativa na UI) ──
 // Ativados futuramente com Google SSO
