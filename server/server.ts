@@ -121,6 +121,7 @@ async function autoMatchProjectsToGroups() {
           }
         });
       }
+    }
     console.log(`Associação concluída: ${matchCount} de ${projects.length} projetos vinculados a grupos.`);
   } catch (err) {
     console.error('Erro na associação de projetos:', err);
