@@ -22,6 +22,7 @@ const upload = multer({ dest: 'uploads/' });
 
 // ─── Backup automático do SQLite ──────────────────────────────────────────────
 function autoBackupSQLite() {
+  if (process.env.NODE_ENV === 'production' || process.env.VERCEL) return;
   try {
     const dbPath = path.join(__dirname, '../prisma/dev.db');
     const backupDir = path.join(__dirname, '../prisma/backups');
@@ -124,9 +125,12 @@ async function seedDefaultData() {
   const count = await prisma.project.count();
   if (count === 0) {
     console.log('Database empty. Seeding default projects from initialData.json...');
-    const seedPath = path.join(__dirname, '../src/initialData.json');
-    if (fs.existsSync(seedPath)) {
-      const projectsData = JSON.parse(fs.readFileSync(seedPath, 'utf8'));
+    try {
+      // Force Vercel bundler to include the file by using require
+      const { createRequire } = await import('module');
+      const require = createRequire(import.meta.url);
+      const projectsData = require('../src/initialData.json');
+      
       await prisma.project.createMany({
         data: projectsData.map((p: any) => ({
           codigo: p.codigo,
@@ -139,8 +143,8 @@ async function seedDefaultData() {
         }))
       });
       console.log(`Successfully seeded ${projectsData.length} projects.`);
-    } else {
-      console.log('Seed file initialData.json not found.');
+    } catch (e) {
+      console.error('Failed to load or seed initialData.json:', e);
     }
   }
 
