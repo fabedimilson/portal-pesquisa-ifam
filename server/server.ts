@@ -1464,6 +1464,10 @@ app.post('/api/auth/verify-otp', async (req, res) => {
   res.status(503).json({ message: 'Autenticação via Google SSO: em implantação.' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Backend server running on http://localhost:${PORT}`);
-});
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`Backend server running on http://localhost:${PORT}`);
+  });
+}
+
+export default app;
