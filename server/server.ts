@@ -121,40 +121,12 @@ async function autoMatchProjectsToGroups() {
           }
         });
       }
-    }
     console.log(`Associação concluída: ${matchCount} de ${projects.length} projetos vinculados a grupos.`);
   } catch (err) {
     console.error('Erro na associação de projetos:', err);
   }
 }
-
 async function seedDefaultData() {
-  const count = await prisma.project.count();
-  if (count === 0) {
-    console.log('Database empty. Seeding default projects from initialData.json...');
-    try {
-      // Force Vercel bundler to include the file by using require
-      const { createRequire } = await import('module');
-      const require = createRequire(import.meta.url);
-      const projectsData = require('../src/initialData.json');
-      
-      await prisma.project.createMany({
-        data: projectsData.map((p: any) => ({
-          codigo: p.codigo,
-          campus: p.campus,
-          titulo: p.titulo,
-          orientador: p.orientador,
-          fomento: p.fomento,
-          discente: p.discente,
-          status: p.status
-        }))
-      });
-      console.log(`Successfully seeded ${projectsData.length} projects.`);
-    } catch (e) {
-      console.error('Failed to load or seed initialData.json:', e);
-    }
-  }
-
   const groupCount = await prisma.researchGroup.count();
   if (groupCount === 0) {
     console.log('Seeding default research groups...');
@@ -406,7 +378,9 @@ async function seedDefaultData() {
   }
 }
 
-seedDefaultData();
+if (!process.env.VERCEL) {
+  seedDefaultData().catch(console.error);
+}
 
 
 // Endpoints
