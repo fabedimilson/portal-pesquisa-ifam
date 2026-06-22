@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/index.ts": {
+      "includeFiles": "src/initialData.json"
+    }
+  },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/index.ts" }
   ]
