@@ -1,0 +1,329 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Project {
+  id                 String         @id @default(uuid())
+  codigo             String
+  campus             String
+  titulo             String
+  orientador         String
+  fomento            String
+  discente           String?
+  status             String
+  frequencies        Frequency[]
+  // Triagem documental fields
+  matriculaRegular   Boolean?       @default(false)
+  lattesUrl          String?
+  rgUploaded         Boolean?       @default(false)
+  cpfUploaded        Boolean?       @default(false)
+  residenciaUploaded Boolean?       @default(false)
+  declaracaoPeriodo  String?        // e.g. "1º período", "3º período", etc.
+  termoFapeam        String?        // "APROVADO", "PENDENTE", "REJEITADO" etc.
+  contaBancoValida   Boolean?       @default(false)
+  triagemStatus      String?        @default("PENDENTE") // "PENDENTE" | "APROVADO" | "CORRECAO"
+  triagemFeedback    String?
+  rgFeedback         String?
+  cpfFeedback        String?
+  residenciaFeedback String?
+  matriculaFeedback  String?
+  lattesFeedback     String?
+  termoFapeamFeedback String?
+
+  // Relations
+  fruits             Fruit[]
+  substitutions      Substitution[]
+  certificates       Certificate[]
+
+  // Vínculo e Perfil do Pesquisador (Orientador)
+  researchGroupId      String?
+  researchGroup        ResearchGroup? @relation(fields: [researchGroupId], references: [id])
+  orientadorGrupoNome  String?
+  orientadorGrupoLink  String?
+  orientadorPapel      String?        // "LIDER" | "VICE_LIDER" | "PESQUISADOR" | "TECNICO"
+
+  // Vínculo e Perfil do Discente (Bolsista/Voluntário)
+  discenteParticipaGrupo Boolean?     @default(false)
+  discenteGrupoNome      String?
+  discenteGrupoLink      String?
+  discentePapel          String?      // "ESTUDANTE_BOLSISTA" | "ESTUDANTE_VOLUNTARIO"
+
+  // New fields for Edital integration
+  editalId           String?
+  edital             Edital?        @relation(fields: [editalId], references: [id])
+  notaCurriculo      Float?
+  notaFinal          Float?
+  situacao           String?
+  
+  inscriptionDocs    InscriptionDocument[]
+  projectDocs        ProjectDocument[]
+  evaluations        ProjectEvaluation[]
+  reports            Report[]
+}
+
+model Frequency {
+  id           String   @id @default(uuid())
+  projectId    String
+  project      Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  studentName  String
+  month        String
+  hours        Int
+  activityType String
+  description  String
+  status       String   // "PENDENTE" | "SUBMETIDO" | "APROVADO" | "CORRECAO"
+  feedback     String?
+  banco        String?
+  agencia      String?
+  conta        String?
+  dailyLogs    String?  // JSON string contendo as atividades diárias do discente
+}
+
+model ResearchGroup {
+  id              String   @id @default(uuid())
+  nome            String   // Nome do Grupo de Pesquisa
+  area            String?  // Área de Conhecimento
+  lideres         String   // Líder ou líderes
+  campus          String   // Sigla do Campus (ex: CMC, CCO)
+  endereco        String?  // Endereço/Logradouro do CNPq
+  contatoEmail    String?  // E-mail de contato
+  linhasPesquisa  String   // Linhas de pesquisa
+  membrosEquipe   String   // Equipe completa (membros)
+  status          String   // "ATIVO" | "ALERTA"
+  linkCnpq        String?  // Espelho do grupo no DGP CNPq
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  lastActivity    DateTime @default(now())
+  
+  projects        Project[]
+}
+
+model Fruit {
+  id              String   @id @default(uuid())
+  tipo            String   // "PUBLICACAO" | "PATENTE" | "SOFTWARE" | "EVENTO"
+  classificacao   String   // "REVISTA_EXTERNA" | "REVISTA_IFAM" | "NAO_PUBLICADO" | "NIT_IFAM" | "SERVIDOR_DIRETO" | "NAO_REGISTRADO" | "ORGANIZACAO_GRUPO" | "ORGANIZACAO_INSTITUCIONAL" | "EVENTO_EXTERNO"
+  titulo          String
+  linkUrl         String?
+  projectId       String
+  project         Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  createdAt       DateTime @default(now())
+}
+
+model Substitution {
+  id                  String   @id @default(uuid())
+  projectId           String
+  project             Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  estudanteSainte     String
+  estudanteEntrante   String
+  data                DateTime @default(now())
+  relatorioParcialUrl String?
+  justificativa       String?
+}
+
+model Certificate {
+  id           String   @id @default(uuid())
+  projectId    String
+  project      Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  studentName  String
+  role         String   // "BOLSISTA" | "VOLUNTARIO" | "ORIENTADOR"
+  hash         String   @unique
+  cargaHoraria Int
+  emissao      DateTime @default(now())
+}
+
+model SystemUpdate {
+  key       String   @id @default("last_update")
+  updatedAt DateTime @default(now()) @updatedAt
+}
+
+model Edital {
+  id           String              @id @default(uuid())
+  titulo       String              
+  descricao    String?
+  ano          String              
+  status       String              @default("ATIVO") 
+  createdAt    DateTime            @default(now())
+  
+  // Timeline dates
+  inscricaoInicio  String?
+  inscricaoFim     String?
+  avaliacaoInicio  String?
+  avaliacaoFim     String?
+  resultadoParcial String?
+  resultadoFinal   String?
+  onboardingInicio String?
+  onboardingFim    String?
+
+  // Níveis elegíveis separados por vírgula (ex: "Integrado,Graduação")
+  niveis           String?
+
+  // Valores de bolsa por fonte de fomento (configurável por edital)
+  valorBolsaFAPEAM  Float?  @default(600)
+  valorBolsaCNPq    Float?  @default(700)
+  valorBolsaIFAM    Float?  @default(400)
+  duracaoMeses      Int?    @default(12)
+
+  // Modalidade e documentação
+  modalidade         String? // "PIBIC" | "PAIC" | "PIBIC-EM" | "FC"
+  documentoEditalUrl String?
+
+  quotas          EditalCampusQuota[]
+  criteria        EditalCriterion[]
+  requirements    EditalRequirement[] 
+  inscriptionReqs InscriptionRequirement[] 
+  projects        Project[]
+}
+
+model InscriptionRequirement {
+  id          String   @id @default(uuid())
+  editalId    String
+  edital      Edital   @relation(fields: [editalId], references: [id], onDelete: Cascade)
+  nome        String   
+  descricao   String?
+  obrigatorio Boolean  @default(true)
+  documents   InscriptionDocument[]
+}
+
+model EditalRequirement {
+  id          String   @id @default(uuid())
+  editalId    String
+  edital      Edital   @relation(fields: [editalId], references: [id], onDelete: Cascade)
+  nome        String   
+  descricao   String?
+  obrigatorio Boolean  @default(true)
+  documents   ProjectDocument[]
+}
+
+model InscriptionDocument {
+  id             String                 @id @default(uuid())
+  projectId      String
+  project        Project                @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  requirementId  String
+  requirement    InscriptionRequirement @relation(fields: [requirementId], references: [id], onDelete: Cascade)
+  fileUrl        String?
+  status         String                 @default("ENVIADO") 
+  updatedAt      DateTime               @updatedAt
+}
+
+model ProjectDocument {
+  id             String            @id @default(uuid())
+  projectId      String
+  project        Project           @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  requirementId  String
+  requirement    EditalRequirement @relation(fields: [requirementId], references: [id], onDelete: Cascade)
+  fileUrl        String?           
+  status         String            @default("PENDENTE") 
+  motivoRecusa   String?           
+  detalhesRecusa String?           
+  updatedAt      DateTime          @updatedAt
+}
+
+model EditalCampusQuota {
+  id               String  @id @default(uuid())
+  editalId         String
+  edital           Edital  @relation(fields: [editalId], references: [id], onDelete: Cascade)
+  campus           String   
+  quantidade       Int      
+  // Valor total investido neste campus neste edital (calculado no backend)
+  valorTotalCampus Float?
+}
+
+model EditalCriterion {
+  id           String   @id @default(uuid())
+  editalId     String
+  edital       Edital   @relation(fields: [editalId], references: [id], onDelete: Cascade)
+  nome         String   
+  pontosMax    Float    
+}
+
+model Evaluator {
+  id          String              @id @default(uuid())
+  nome        String
+  email       String              @unique 
+  evaluations ProjectEvaluation[]
+}
+
+model ProjectEvaluation {
+  id          String                   @id @default(uuid())
+  projectId   String
+  project     Project                  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  evaluatorId String
+  evaluator   Evaluator                @relation(fields: [evaluatorId], references: [id], onDelete: Cascade)
+  notaProjeto Float                    @default(0.0) 
+  parecer     String?                  
+  createdAt   DateTime                 @default(now())
+  scores      ProjectCriterionScore[]
+}
+
+model ProjectCriterionScore {
+  id           String          @id @default(uuid())
+  evaluationId String
+  evaluation   ProjectEvaluation @relation(fields: [evaluationId], references: [id], onDelete: Cascade)
+  criterionId  String
+  score        Float           
+}
+
+model Campus {
+  id      String   @id @default(uuid())
+  nome    String
+  sigla   String   @unique
+  cursos  Course[]
+  users   User[]
+}
+
+model Course {
+  id       String @id @default(uuid())
+  nome     String
+  nivel    String @default("Graduação")
+  campusId String
+  campus   Campus @relation(fields: [campusId], references: [id], onDelete: Cascade)
+}
+
+// ─── Relatórios Técnicos ───────────────────────────────────────────────────
+
+model Report {
+  id          String    @id @default(uuid())
+  projectId   String
+  project     Project   @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  tipo        String    // "PARCIAL" | "FINAL"
+  periodo     String    // ex: "Ago-Jan 2026/2027"
+  fileUrl     String?
+  status      String    @default("PENDENTE") // "PENDENTE" | "ENVIADO" | "APROVADO" | "CORRECAO"
+  feedback    String?
+  submittedAt DateTime?
+  approvedAt  DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+// ─── Infraestrutura de Autenticação (construída, inativa na UI) ─────────────
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  nome      String
+  papel     String   // "STUDENT" | "PROFESSOR" | "COORDINATOR" | "PPGI"
+  campusId  String?
+  campus    Campus?  @relation(fields: [campusId], references: [id])
+  cpf       String?
+  lattesUrl String?
+  ativo     Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model OtpCode {
+  id        String   @id @default(uuid())
+  email     String
+  code      String   // hash bcrypt do OTP de 6 dígitos
+  expiresAt DateTime
+  used      Boolean  @default(false)
+  createdAt DateTime @default(now())
+}

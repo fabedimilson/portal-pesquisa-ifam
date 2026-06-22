@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "CMDI-PVC2704-2026-0",
+    "codigo": "PVC2704-2026",
+    "campus": "CMDI",
+    "titulo": "Vitória Régia – Sistema de monitoramento da qualidade da água em tempo real na Comunidade Flutuante do Lago do Catalão - Amazonas/BRASIL",
+    "orientador": "ANA LUCIA SOARES MACHADO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2763-2026-1",
+    "codigo": "PVC2763-2026",
+    "campus": "CMDI",
+    "titulo": "Práticas Sustentáveis com resíduos eletroeletrônicos no Ensino Médio Integrado do IFAM-CMDI",
+    "orientador": "JOSE CAVALCANTE LACERDA JUNIOR",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2709-2026-2",
+    "codigo": "PVC2709-2026",
+    "campus": "CMDI",
+    "titulo": "Síntese e Otimização do SrNb2O6 por Moagem de Alta Energia e Calcinação para Aplicações Eletroquímicas",
+    "orientador": "JOSE FABIO DE LIMA NASCIMENTO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2713-2026-3",
+    "codigo": "PVC2713-2026",
+    "campus": "CMDI",
+    "titulo": "Desenvolvimento de Sensor Eletroquímico Flexível Inkjet-Printed Modificado com Niobatos de Alcalinos Terrosos para Detecção de Metais Pesados em Rios Amazônicos",
+    "orientador": "JOSE FABIO DE LIMA NASCIMENTO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2723-2026-4",
+    "codigo": "PVC2723-2026",
+    "campus": "CMDI",
+    "titulo": "Inclusão das Pessoas com Deficiência no Ensino Médio Integrado (EMI): um caminho a partir da Robótica Educacional",
+    "orientador": "JOSE CAVALCANTE LACERDA JUNIOR",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2686-2026-5",
+    "codigo": "PVC2686-2026",
+    "campus": "CMDI",
+    "titulo": "Desenvolvimento de Robô Autônomo para Inspeção de Culturas Agrícolas Baseado em Visão Computacional por Detecção de Linhas de Cultivo",
+    "orientador": "HUGO ALVES VELOZO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2715-2026-6",
+    "codigo": "PVC2715-2026",
+    "campus": "CMDI",
+    "titulo": "EcoCatalão: uma aplicação móvel educativa baseada em visão computacional para classificação de resíduos recicláveis",
+    "orientador": "ANA LUCIA SOARES MACHADO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2706-2026-7",
+    "codigo": "PVC2706-2026",
+    "campus": "CMDI",
+    "titulo": "Escola Inteligente: Ensino de Energia e Sustentabilidade por Meio de Smart Grids com Arduino e Energia Solar",
+    "orientador": "VITOR BREMGARTNER DA FROTA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2739-2026-8",
+    "codigo": "PVC2739-2026",
+    "campus": "CMDI",
+    "titulo": "Investigação do Uso de Tecnologias Educacionais e Prototipagem Digital no Desenvolvimento do Pensamento Computacional no Ensino de Matemática",
+    "orientador": "JEANNE MOREIRA DE SOUSA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2759-2026-9",
+    "codigo": "PVC2759-2026",
+    "campus": "CMDI",
+    "titulo": "Arquitetura Segura para Sistemas Baseados em Agentes Inteligentes utilizando TLS 1.3, PKI, Mitigação de Ataques Criptográficos e Trusted Computing",
+    "orientador": "GILBERT BREVES MARTINS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2708-2026-10",
+    "codigo": "PVC2708-2026",
+    "campus": "CMDI",
+    "titulo": "Robótica Educacional com IoT e IA: Uma Proposta de Ensino Baseada na Cultura Maker para Alunos do Ensino Fundamental",
+    "orientador": "VITOR BREMGARTNER DA FROTA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2694-2026-11",
+    "codigo": "PVC2694-2026",
+    "campus": "CMDI",
+    "titulo": "Sintonia Adaptativa de Controlador PID por Aprendizado por Reforço: Controle de Pêndulo Duplo Experimental",
+    "orientador": "JOAO BERNARDO ARANHA RIBEIRO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2758-2026-12",
+    "codigo": "PVC2758-2026",
+    "campus": "CMDI",
+    "titulo": "Desenvolvimento de Interface Inteligente Baseada em Agentes para Interação com Sistemas de Análise de Documentos Industriais",
+    "orientador": "GILBERT BREVES MARTINS",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2707-2026-13",
+    "codigo": "PVC2707-2026",
+    "campus": "CMDI",
+    "titulo": "Inteligência Artificial e Cultura Maker: Automação da Modelagem 3D para Produção de Objetos Educacionais Impressos",
+    "orientador": "VITOR BREMGARTNER DA FROTA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2673-2026-14",
+    "codigo": "PVC2673-2026",
+    "campus": "CMDI",
+    "titulo": "Correlação do oxigênio dissolvido com indicadores de matéria orgânica na nascente do igarapé da Vovó em Manaus - AM",
+    "orientador": "LUANA MONTEIRO DA SILVA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2712-2026-15",
+    "codigo": "PVC2712-2026",
+    "campus": "CMDI",
+    "titulo": "ANÁLISE E DESCRIÇÃO DOS INDICADORES DE DESEMPENHO UTILIZADOS EM GESTÃO DE ESTOQUES NO ALMOXARIFADO DO HOSPITAL PÚBLICO, HEMOAN DO MUNICÍPIO DE MANAUS.",
+    "orientador": "JOSE LUCIANO RODRIGUES ALVES NETO",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2757-2026-16",
+    "codigo": "PVC2757-2026",
+    "campus": "CMDI",
+    "titulo": "Modelagem e Estruturação de Dados para Processamento Inteligente de Documentos Industriais",
+    "orientador": "GILBERT BREVES MARTINS",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2725-2026-17",
+    "codigo": "PVC2725-2026",
+    "campus": "CMDI",
+    "titulo": "Avaliação experimental do LR-FHSS para transmissão de dados em microrredes na Amazônia",
+    "orientador": "SERGIO COSTA MARTINS DE ALENCAR",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2635-2026-18",
+    "codigo": "PVC2635-2026",
+    "campus": "CMDI",
+    "titulo": "Desenvolvimento e Avaliação de um Objeto Tangível de Aprendizagem para o Ensino de Probabilidade e Estatística",
+    "orientador": "GABRIEL DE SOUZA LEITAO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2742-2026-19",
+    "codigo": "PVC2742-2026",
+    "campus": "CMDI",
+    "titulo": "Percepção espacial e representação técnica: um estudo sobre variabilidade na aprendizagem do desenho técnico.",
+    "orientador": "GEISY ANNY VENANCIO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2774-2026-20",
+    "codigo": "PVC2774-2026",
+    "campus": "CMDI",
+    "titulo": "Desenvolvimento de Sistema Inteligente Baseado em Agentes e Modelos de Linguagem para Análise Automatizada de Documentos Industriais",
+    "orientador": "MARLOS ANDRE SILVA RODRIGUES",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2636-2026-21",
+    "codigo": "PVC2636-2026",
+    "campus": "CMDI",
+    "titulo": "Coleta e Estruturação de Dados Educacionais a partir de um Objeto Tangível de Aprendizagem para Trigonometria visando a Construção de Dataset Público",
+    "orientador": "GABRIEL DE SOUZA LEITAO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2741-2026-22",
+    "codigo": "PVC2741-2026",
+    "campus": "CMDI",
+    "titulo": "Simulador didático de bancada para sistemas fotovoltaicos off-grid: desenvolvimento e validação experimenta",
+    "orientador": "SERGIO COSTA MARTINS DE ALENCAR",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2684-2026-23",
+    "codigo": "PVC2684-2026",
+    "campus": "CMDI",
+    "titulo": "Desenvolvimento de um Protótipo de Sistema de Gerenciamento Térmico para Baterias de Veículos Elétricos",
+    "orientador": "RICARDO AUGUSTO MEDEIROS DE OLIVEIRA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2747-2026-24",
+    "codigo": "PVC2747-2026",
+    "campus": "CMDI",
+    "titulo": "Desenvolvimento de um Sistema de Manutenção Inteligente Baseado em Redes Neurais para Monitoramento de Falhas em Sistemas Automatizados",
+    "orientador": "CLEONOR CRESCENCIO DAS NEVES",
+    "fomento": "CNPQ AF",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2766-2026-25",
+    "codigo": "PVC2766-2026",
+    "campus": "CMDI",
+    "titulo": "Aplicações de software DAW (DIGITAL AUDIO WORKSTATION) em produção de trilhas de áudio e efeitos sonoros para APPs e Games educacionais.",
+    "orientador": "EDILSON SANTOS DE OLIVEIRA DUARTE",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2683-2026-26",
+    "codigo": "PVC2683-2026",
+    "campus": "CMDI",
+    "titulo": "Desenvolvimento de um Protótipo de Sistema de Controle de Motor (MCU) para Veículos Elétricos.",
+    "orientador": "RICARDO AUGUSTO MEDEIROS DE OLIVEIRA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMDI-PVC2767-2026-27",
+    "codigo": "PVC2767-2026",
+    "campus": "CMDI",
+    "titulo": "Projetos de controlador digital através de representação de Tchebyshev e agrupamento de raízes em plantas estabilizantes",
+    "orientador": "CLEONOR CRESCENCIO DAS NEVES",
+    "fomento": "DESCLASSIFICADO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2658-2026-0",
+    "codigo": "PVZ2658-2026",
+    "campus": "CMZL",
+    "titulo": "Avaliação da Toxicidade Celular Estrutural de Formulação Nutracêutica Experimental em Modelo In Vitro Aplicado à Saúde Metabólica",
+    "orientador": "ANTONIA NEIDILE RIBEIRO MUNHOZ",
+    "fomento": "FAPEAM",
+    "discente": "Realizado",
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2659-2026-1",
+    "codigo": "PVZ2659-2026",
+    "campus": "CMZL",
+    "titulo": "Avaliação de Biomarcadores Celulares e Elucidação do Mecanismo Toxicológico de Formulação Nutracêutica Experimental em Modelo In Vitro Aplicado à Saúde Metabólica",
+    "orientador": "ANTONIA NEIDILE RIBEIRO MUNHOZ",
+    "fomento": "FAPEAM",
+    "discente": "Realizado",
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2660-2026-2",
+    "codigo": "PVZ2660-2026",
+    "campus": "CMZL",
+    "titulo": "Desenvolvimento e Otimização de Bioprocessos Agroecológicos Aplicados à Obtenção de Formulação Nutracêutica Experimental para Saúde Metabólica.",
+    "orientador": "ANTONIA NEIDILE RIBEIRO MUNHOZ",
+    "fomento": "FAPEAM",
+    "discente": "Realizado",
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2653-2026-3",
+    "codigo": "PVZ2653-2026",
+    "campus": "CMZL",
+    "titulo": "Avaliação de doenças parasitárias em tambaquis criados em viveiros escavados no ramal do Puraquequara, Manaus – Amazonas.",
+    "orientador": "SUELEN MIRANDA DOS SANTOS",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2655-2026-4",
+    "codigo": "PVZ2655-2026",
+    "campus": "CMZL",
+    "titulo": "Aspectos ecofisiológicos de espécies de tucunaré no rio Tarumã-Açu (Manaus - AM).",
+    "orientador": "SUELEN MIRANDA DOS SANTOS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2754-2026-5",
+    "codigo": "PVZ2754-2026",
+    "campus": "CMZL",
+    "titulo": "Influência do tempo e do uso de anticoagulantes na determinação da glicemia em caprinos.",
+    "orientador": "ISADORA KAROLINA FREITAS DE SOUSA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2654-2026-6",
+    "codigo": "PVZ2654-2026",
+    "campus": "CMZL",
+    "titulo": "Avaliação limnológica e microbiológica de sistema aquícola de camarão amazônico (Manaus – AM).",
+    "orientador": "SUELEN MIRANDA DOS SANTOS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2769-2026-7",
+    "codigo": "PVZ2769-2026",
+    "campus": "CMZL",
+    "titulo": "Relação socioambiental entre comunidades Mura e Animais Domésticos e Silvestres em área urbana de Manaus",
+    "orientador": "ALVATIR CAROLINO DA SILVA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2738-2026-8",
+    "codigo": "PVZ2738-2026",
+    "campus": "CMZL",
+    "titulo": "OCORRÊNCIA DE ENDOPARASITAS GASTRINTESTINAIS EM EQUINOS NO MUNICÍPIO DE MANAUS - AM",
+    "orientador": "ISADORA KAROLINA FREITAS DE SOUSA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2750-2026-9",
+    "codigo": "PVZ2750-2026",
+    "campus": "CMZL",
+    "titulo": "Ocorrência de otite parasitária em bovinos na região metropolitana de Manaus – AM",
+    "orientador": "ISADORA KAROLINA FREITAS DE SOUSA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2664-2026-10",
+    "codigo": "PVZ2664-2026",
+    "campus": "CMZL",
+    "titulo": "DETECÇÃO DE ENDOPARASITOS GASTROINTESTINAIS EM CÃES E GATOS NO MUNICÍPIO DE MANAUS- AMAZONAS",
+    "orientador": "EDUARDO LIMA DE SOUSA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2676-2026-11",
+    "codigo": "PVZ2676-2026",
+    "campus": "CMZL",
+    "titulo": "Efeito da dinâmica do revolvimento da compostagem orgânica de titônia (Tithonia diversifolia) e capim capiaçu (Pennisetum purpureum cv. BRS Capiaçu)",
+    "orientador": "NAILSON CELSO DA SILVA NINA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2642-2026-12",
+    "codigo": "PVZ2642-2026",
+    "campus": "CMZL",
+    "titulo": "Mapeamento da fauna bacteriana em tecido muscular de tambaqui (Colossoma macropomum) por metabarcoding 16S rRNA",
+    "orientador": "DANNIEL ROCHA BEVILAQUA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2733-2026-13",
+    "codigo": "PVZ2733-2026",
+    "campus": "CMZL",
+    "titulo": "Inclusão da silagem biológica de resíduos de tambaqui na alimentação de codornas (Coturnix coturnix japonica)",
+    "orientador": "FERNANDA AMARANTE MENDES DE OLIVEIRA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2734-2026-14",
+    "codigo": "PVZ2734-2026",
+    "campus": "CMZL",
+    "titulo": "Valorização do resíduo de guaraná (Paullinia cupana) associado com enzimas exógenas em dietas para poedeiras comerciais",
+    "orientador": "FERNANDA AMARANTE MENDES DE OLIVEIRA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2672-2026-15",
+    "codigo": "PVZ2672-2026",
+    "campus": "CMZL",
+    "titulo": "Determinação do tamanho mínimo de juvenis de camarão amazônico (Macrobrachium amazonicum) para inserção em consórcio com tambaqui (Colossoma macropomum) em sistema de recirculação",
+    "orientador": "MARILUCE DOS REIS FERREIRA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2674-2026-16",
+    "codigo": "PVZ2674-2026",
+    "campus": "CMZL",
+    "titulo": "Qualidade de Água e Perfil Sanitário em Sistema de Recirculação (RAS) no Policultivo de Tambaqui (Colossoma macropomum) e Camarão Amazônico (Macrobrachium amazonicum)",
+    "orientador": "MARILUCE DOS REIS FERREIRA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2678-2026-17",
+    "codigo": "PVZ2678-2026",
+    "campus": "CMZL",
+    "titulo": "Mapeamento Socioeconômico e Produtivo dos agricultores familiares do entorno do IFAM Campus Manaus Zona Leste",
+    "orientador": "CRISTIANE CAVALCANTE LIMA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2640-2026-18",
+    "codigo": "PVZ2640-2026",
+    "campus": "CMZL",
+    "titulo": "Quantificação do DNA bacteriano em diferentes matrizes biológicas do tambaqui (Colossoma macropomum) por qPCR: implicações para a sanidade aquícola",
+    "orientador": "DANNIEL ROCHA BEVILAQUA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2641-2026-19",
+    "codigo": "PVZ2641-2026",
+    "campus": "CMZL",
+    "titulo": "Detecção molecular de Aeromonas hydrophila em DNA ambiental (eDNA) de viveiros escavados de tambaqui (Colossoma macropomum) no Instituto Federal do Amazonas – Campus Manaus Zona Leste: implicações para a sanidade aquícola",
+    "orientador": "DANNIEL ROCHA BEVILAQUA",
+    "fomento": "IFAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2666-2026-20",
+    "codigo": "PVZ2666-2026",
+    "campus": "CMZL",
+    "titulo": "DETECÇÃO DE ENDOPARASITOS E ECTOPARASITOS EM BOVINOS NO MUNICÍPIO DE MANAUS E PRESIDENTE FIGUEIREDO - AMAZONAS",
+    "orientador": "EDUARDO LIMA DE SOUSA",
+    "fomento": "AÇÕES AFIRMATIVAS",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2667-2026-21",
+    "codigo": "PVZ2667-2026",
+    "campus": "CMZL",
+    "titulo": "Estruturação de Unidade Experimental de Recirculação de Água (RAS) como Ferramenta de Ensino, Pesquisa e Extensão no Campus Manaus Zona Leste",
+    "orientador": "MARILUCE DOS REIS FERREIRA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2652-2026-22",
+    "codigo": "PVZ2652-2026",
+    "campus": "CMZL",
+    "titulo": "OCORRÊNCIA DE PARASITOS ZOONÓTICOS EM HORTALIÇAS COMERCIALIZADAS EM FEIRAS LIVRES DE MANAUS-AM",
+    "orientador": "KILMA CRISTIANE SILVA NEVES",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2680-2026-23",
+    "codigo": "PVZ2680-2026",
+    "campus": "CMZL",
+    "titulo": "Combinação de técnicas de nucleação para restauração ecológica em área de solo degradado - Fase 2",
+    "orientador": "SIMONE BENEDET FONTOURA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2647-2026-24",
+    "codigo": "PVZ2647-2026",
+    "campus": "CMZL",
+    "titulo": "IFFLOW: Desenvolvimento e Avaliação Empírica de um Sistema Web para a Padronização de Processos Administrativos no IFAM",
+    "orientador": "FABIANN MATTHAUS DANTAS BARBOSA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2735-2026-25",
+    "codigo": "PVZ2735-2026",
+    "campus": "CMZL",
+    "titulo": "Desenvolvimento de Sistema Inteligente de Monitoramento Preditivo com IA para Pecuária de Corte",
+    "orientador": "BENEVALDO PEREIRA GONCALVES",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2746-2026-26",
+    "codigo": "PVZ2746-2026",
+    "campus": "CMZL",
+    "titulo": "Yanduara: A Racionalidade Ambiental na Gestão da Pegada Humana em Manaus via Sistemas de Validação Digital.",
+    "orientador": "GIZELE MELO UCHOA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2749-2026-27",
+    "codigo": "PVZ2749-2026",
+    "campus": "CMZL",
+    "titulo": "CRESCIMENTO DE CASTANHEIRAS DA AMAZÕNIA EM DOIS SISTEMAS DE PLANTIOS EM ÁREAS DEGRADADAS",
+    "orientador": "EDIMILSON BARBOSA LIMA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2651-2026-28",
+    "codigo": "PVZ2651-2026",
+    "campus": "CMZL",
+    "titulo": "Avaliação do potencial de veiculação de endoparasitos por alimentos ofertados a peixes-bois da Amazônia (Trichechus inunguis)",
+    "orientador": "KILMA CRISTIANE SILVA NEVES",
+    "fomento": "DESCLASSIFICADO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMZL-PVZ2756-2026-29",
+    "codigo": "PVZ2756-2026",
+    "campus": "CMZL",
+    "titulo": "MONITORAMENTO DA CASTANHEIRA CULTIVADA EM ÁREA DEGRADADA EM MANAUS/AM",
+    "orientador": "EDIMILSON BARBOSA LIMA",
+    "fomento": "DESCLASSIFICADO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2778-2026-0",
+    "codigo": "PVM2778-2026",
+    "campus": "CMC",
+    "titulo": "Avaliação da aderência curricular do curso de Tecnologia em Análise e Desenvolvimento de Sistemas por meio de modelagem semântica e técnicas de machine learning",
+    "orientador": "EMMERSON SANTA RITA DA SILVA",
+    "fomento": "FAPEAM",
+    "discente": "ANTHONY JESUS RAMOS RODRIGUES",
+    "status": "em andamento"
+  },
+  {
+    "id": "CMC-PVM2781-2026-1",
+    "codigo": "PVM2781-2026",
+    "campus": "CMC",
+    "titulo": "Desenvolvimento de uma aplicação de machine learning para o mapeamento de competências do curso de Tecnologia em Análise e Desenvolvimento de Sistemas a partir de análise documental e mineração de textos de perfis profissionais",
+    "orientador": "EMMERSON SANTA RITA DA SILVA",
+    "fomento": "FAPEAM",
+    "discente": "CAUAN DA SILVA PINHO",
+    "status": "em andamento"
+  },
+  {
+    "id": "CMC-PVM2698-2026-2",
+    "codigo": "PVM2698-2026",
+    "campus": "CMC",
+    "titulo": "NaviIFAM: Tecnologia Assistiva para Localização e Navegação Interna no Campus Manaus Centro: Proposta de uma solução base para futura adaptação e expansão aos demais campi do IFAM",
+    "orientador": "MARCELO CHAMY MACHADO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2755-2026-3",
+    "codigo": "PVM2755-2026",
+    "campus": "CMC",
+    "titulo": "Análise de Dados Secundários sobre Áreas de Risco em Parintins",
+    "orientador": "LUCIANE FARIAS RIBAS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2692-2026-4",
+    "codigo": "PVM2692-2026",
+    "campus": "CMC",
+    "titulo": "Sistema para Geração de Animações Educativas Acessíveis baseadas em Movimento e Expressões Faciais: uma análise de viabilidade realizada no IFAM - Campus Manaus Centro",
+    "orientador": "DALMIR PACHECO DE SOUZA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2690-2026-5",
+    "codigo": "PVM2690-2026",
+    "campus": "CMC",
+    "titulo": "COLETÂNEA DE IMAGENS MOFO ANATÔMICAS DE PLANTAS MEDICINAIS E PANC COMO RECURSO DIDÁTICO PARA O ENSINO DE BIOLOGIA.",
+    "orientador": "LUCILENE DA SILVA PAES",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2717-2026-6",
+    "codigo": "PVM2717-2026",
+    "campus": "CMC",
+    "titulo": "Valorização do Resíduo Agroindustrial do Baixo Amazonas: Produção e Caracterização Mecânica de Concretos Ecoeficientes com Cinza da Casca de Arroz e Microfibras",
+    "orientador": "LAERTE MELO BARROS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2643-2026-7",
+    "codigo": "PVM2643-2026",
+    "campus": "CMC",
+    "titulo": "Episódios de chuvas intensas na cidade de Manaus: setorização e danos",
+    "orientador": "JUSSARA SOCORRO CURY MACIEL",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2719-2026-8",
+    "codigo": "PVM2719-2026",
+    "campus": "CMC",
+    "titulo": "Projeto Executivo BIM de Sistema Descentralizado de Tratamento de Esgoto Doméstico para Residências Rurais Amazônicas: Dimensionamento e Modelagem Tridimensional segundo a ABNT NBR 17076:2024",
+    "orientador": "LAERTE MELO BARROS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2644-2026-9",
+    "codigo": "PVM2644-2026",
+    "campus": "CMC",
+    "titulo": "PROPOSIÇÕES DE CONTROLE E DRENAGEM PARA AS CHUVAS EXCEDENTES NA CIDADE DE MANAUS",
+    "orientador": "JUSSARA SOCORRO CURY MACIEL",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2718-2026-10",
+    "codigo": "PVM2718-2026",
+    "campus": "CMC",
+    "titulo": "Impermeabilização de Lajes em Manaus: Estudo Comparativo entre Manta Asfáltica e Sistema Líquido para Auxílio à Seleção de Projetos em Clima Tropical Úmido",
+    "orientador": "LAERTE MELO BARROS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2771-2026-11",
+    "codigo": "PVM2771-2026",
+    "campus": "CMC",
+    "titulo": "Extração de DNA a partir de fontes limitadas: abordagens metodológicas para garantir qualidade e integridade genética",
+    "orientador": "CIRLANDE CABRAL DA SILVA",
+    "fomento": "FAPEAM",
+    "discente": "MESSIAS DOS SANTOS MOTA ISMAEL",
+    "status": "EM ANDAMENTO"
+  },
+  {
+    "id": "CMC-PVM2731-2026-12",
+    "codigo": "PVM2731-2026",
+    "campus": "CMC",
+    "titulo": "Qualidade Microbiológica e Higiênico-Sanitária de Frutas Minimamente Processadas em Supermercados de Manaus-AM",
+    "orientador": "SIMONE RAMOS DE CASTRO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2721-2026-13",
+    "codigo": "PVM2721-2026",
+    "campus": "CMC",
+    "titulo": "Avaliação da Qualidade Microbiológica de Polpas de Frutas Artesanais Comercializadas em Feiras Livres de Manaus, AM",
+    "orientador": "SIMONE RAMOS DE CASTRO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2638-2026-14",
+    "codigo": "PVM2638-2026",
+    "campus": "CMC",
+    "titulo": "Virtual Screening por Docking Molecular de moléculas oriundas de Arrabidaea chica Verlot com potenciais Farmacológicas frente a Diabetes Mellitus tipo 2 através ensaios in silico.",
+    "orientador": "FRANCIMAURO SOUSA MORAIS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2675-2026-15",
+    "codigo": "PVM2675-2026",
+    "campus": "CMC",
+    "titulo": "ESTRATÉGIAS DIGITAIS PARA O INSTAGRAM: UMA ANÁLISE DA ACESSIBILIDADE APLICADA AO PERFIL DO ESPAÇO CURUPIRA",
+    "orientador": "DALMIR PACHECO DE SOUZA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2639-2026-16",
+    "codigo": "PVM2639-2026",
+    "campus": "CMC",
+    "titulo": "Prospecção fitoquimica por Docking Molecular e ADMET de moléculas oriundas de Aspidosperma nitidum com potenciais inibitória frente as enzimas digestivas através ensaios in silico.",
+    "orientador": "FRANCIMAURO SOUSA MORAIS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2743-2026-17",
+    "codigo": "PVM2743-2026",
+    "campus": "CMC",
+    "titulo": "Análise da composição de argamassa em edificação preservada no Sítio Histórico de Manaus, AM por técnicas de Cromatografia, Infravermelho e DRX",
+    "orientador": "LUCIANE FARIAS RIBAS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2677-2026-18",
+    "codigo": "PVM2677-2026",
+    "campus": "CMC",
+    "titulo": "PARQUES MULTIFUNCIONAIS NO CONTROLE DE ALAGAMENTOS URBANOS EM ÁREAS VULNERÁVEIS DE MANAUS",
+    "orientador": "JUSSARA SOCORRO CURY MACIEL",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2760-2026-19",
+    "codigo": "PVM2760-2026",
+    "campus": "CMC",
+    "titulo": "Estudo Geotécnico dos Taludes da Orla de Parintins",
+    "orientador": "LUCIANE FARIAS RIBAS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2728-2026-20",
+    "codigo": "PVM2728-2026",
+    "campus": "CMC",
+    "titulo": "“O jacaré não é vilão”: desenvolvimento de um jogo educativo como ferramenta de educação ambiental",
+    "orientador": "ALEFE LOPES VIANA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2656-2026-21",
+    "codigo": "PVM2656-2026",
+    "campus": "CMC",
+    "titulo": "Análise e Implementação de Métodos de Gradiente com Aplicações em Aprendizado de Máquina",
+    "orientador": "TACILDO DE SOUZA ARAUJO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2745-2026-22",
+    "codigo": "PVM2745-2026",
+    "campus": "CMC",
+    "titulo": "Construção de modelos moleculares e biodiversidade amazônica com aplicativos de reconhecimento de imagens para estudantes com deficiência visual e/ou auditiva",
+    "orientador": "CIRLANDE CABRAL DA SILVA",
+    "fomento": "FAPEAM",
+    "discente": "RAMSÉS FILEMON ORBE RAMOS",
+    "status": "em andameno"
+  },
+  {
+    "id": "CMC-PVM2737-2026-23",
+    "codigo": "PVM2737-2026",
+    "campus": "CMC",
+    "titulo": "A Fuzzy-Gated AdamW Variant for Selective Weight Decay in Neural Networks",
+    "orientador": "TACILDO DE SOUZA ARAUJO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2645-2026-24",
+    "codigo": "PVM2645-2026",
+    "campus": "CMC",
+    "titulo": "Acessibilidade Terminológica na Educação Profissional: Construção de um Glossário Bilíngue (Libras-Português) para o Curso Subsequente em Mecânica.",
+    "orientador": "MAXILIANO BATISTA BARROS",
+    "fomento": "FAPEAM",
+    "discente": "JESUS ERNESTO SILVA MARCANO",
+    "status": "em andameno"
+  },
+  {
+    "id": "CMC-PVM2730-2026-25",
+    "codigo": "PVM2730-2026",
+    "campus": "CMC",
+    "titulo": "Espelhos em Diedro e Teoria dos Grafos",
+    "orientador": "ALYSSON BRHIAN DE SOUZA MUNIZ SILVA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2711-2026-26",
+    "codigo": "PVM2711-2026",
+    "campus": "CMC",
+    "titulo": "Desenvolvimento de bebida à base de cupulate com cumaru (baunilha Amazônica)",
+    "orientador": "ALINE CARVALHO DE FREITAS DOS SANTOS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2705-2026-27",
+    "codigo": "PVM2705-2026",
+    "campus": "CMC",
+    "titulo": "Etnofísica e etnoastronomia na Amazônia: articulações entre conhecimentos tradicionais e científicos para a formação inicial de professores de Física",
+    "orientador": "TALITA PEDROSA VIEIRA DE CARVALHO",
+    "fomento": "IFAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2650-2026-28",
+    "codigo": "PVM2650-2026",
+    "campus": "CMC",
+    "titulo": "Mapeamento e Análise Prospectiva da Produção Científica no IFAM: Um Estudo Longitudinal dos Projetos de Iniciação Científica (2021-2026).",
+    "orientador": "ANDRE WILSON ARCHER PINTO SALGADO",
+    "fomento": "ACÕES AFIRMATIVAS",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2657-2026-29",
+    "codigo": "PVM2657-2026",
+    "campus": "CMC",
+    "titulo": "Análise e Implementação de Modelos Preditivos para Focos de Queimadas no Amazonas",
+    "orientador": "TACILDO DE SOUZA ARAUJO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2761-2026-30",
+    "codigo": "PVM2761-2026",
+    "campus": "CMC",
+    "titulo": "Sistema de Navegação Indoor Acessível com QR Code e Áudio Contextual",
+    "orientador": "VIVIANE GOMES DA SILVA",
+    "fomento": "CNPQ",
+    "discente": "GIORDANA OLIVEIRA DE SOUSA",
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2765-2026-31",
+    "codigo": "PVM2765-2026",
+    "campus": "CMC",
+    "titulo": "Produção de hidromel a partir de mel de abelhas nativas amazônicas: desenvolvimento e padronização de processo.",
+    "orientador": "MIRIAM DE MEDEIROS CARTONILHO",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2780-2026-32",
+    "codigo": "PVM2780-2026",
+    "campus": "CMC",
+    "titulo": "PlenaMente60+: Aplicativo para ajudar na Estimulação Cognitiva e Qualidade de Vida de Idosos.",
+    "orientador": "MIRLEM RODRIGUES RIBEIRO PEREIRA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2740-2026-33",
+    "codigo": "PVM2740-2026",
+    "campus": "CMC",
+    "titulo": "Análise comparativa dos esforços solicitantes em longarinas de uma ponte da BR-319 utilizando os métodos de Fauchart, analogia de grelha e método dos elementos finitos",
+    "orientador": "FABIO MARTINS DA SILVA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2782-2026-34",
+    "codigo": "PVM2782-2026",
+    "campus": "CMC",
+    "titulo": "Otimização da produção de sabão utilizando O.R.V.(óleo residual vegetal) contribuindo com o meio ambiente e para o cumprimento dos ODSs",
+    "orientador": "ALINE CARVALHO DE FREITAS DOS SANTOS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2649-2026-35",
+    "codigo": "PVM2649-2026",
+    "campus": "CMC",
+    "titulo": "A Direção de Arte na Publicidade Impressa Amazonense: Estudo Comparativo dos Anúncios de Natal no Jornal A Crítica (1980, 1990, 2000).",
+    "orientador": "ANDRE WILSON ARCHER PINTO SALGADO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2648-2026-36",
+    "codigo": "PVM2648-2026",
+    "campus": "CMC",
+    "titulo": "Estratégias de Branding e Posicionamento de Mercado para Marcas de Moda Autoral: Um Estudo sobre o Comportamento do Consumidor em Manaus.",
+    "orientador": "ANDRE WILSON ARCHER PINTO SALGADO",
+    "fomento": "ACÕES AFIRMATIVAS",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2702-2026-37",
+    "codigo": "PVM2702-2026",
+    "campus": "CMC",
+    "titulo": "Estudo de otimização da obtenção de EMAG do óleo de resíduos de peixe por Planejamento Fatorial com superfície de resposta",
+    "orientador": "LYEGE MAGALHAES OLIVEIRA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2682-2026-38",
+    "codigo": "PVM2682-2026",
+    "campus": "CMC",
+    "titulo": "Estudo experimental de misturas cimentícias contendo aditivos para aplicações potenciais em protensão química",
+    "orientador": "FABIO MARTINS DA SILVA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2764-2026-39",
+    "codigo": "PVM2764-2026",
+    "campus": "CMC",
+    "titulo": "Análise da Regularização Espectral num Problema de Mínimos Quadrados via SVD e Métodos das Potências",
+    "orientador": "VINICIUS PAULO DE FREITAS",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2773-2026-40",
+    "codigo": "PVM2773-2026",
+    "campus": "CMC",
+    "titulo": "Tecnologia Assistiva para Neurodiversidade: Dicionário técnico visual para aprendizagem de programação de estudantes com TEA no ensino médio",
+    "orientador": "VIVIANE GOMES DA SILVA",
+    "fomento": "ACOES AFIRMATIVAS",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2671-2026-41",
+    "codigo": "PVM2671-2026",
+    "campus": "CMC",
+    "titulo": "SIMULAÇÃO E O ÁTOMO: CONSTRUÇÃO DE UM SIMULADOR VIRTUAL PARA A APLICAÇÃO NO FUNDAMENTAL II E ENSINO MÉDIO",
+    "orientador": "FABIO RIVAS CORREIA CERVINO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2775-2026-42",
+    "codigo": "PVM2775-2026",
+    "campus": "CMC",
+    "titulo": "Aprimoramento e validação de modelos leves de inteligência artificial para classificação de doenças em folhas de cupuaçu em ambientes reais da Amazônia",
+    "orientador": "RENILDO VIANA AZEVEDO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2748-2026-43",
+    "codigo": "PVM2748-2026",
+    "campus": "CMC",
+    "titulo": "Expressão do gene do hormônio de crescimento de tambaqui (Colossoma macropomum) no procarioto Bacillus subtilis",
+    "orientador": "ELSON ANTONIO SADALLA PINTO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2753-2026-44",
+    "codigo": "PVM2753-2026",
+    "campus": "CMC",
+    "titulo": "O uso do NotebookLM no ensino de Cinemática no Ensino Médio",
+    "orientador": "MARCELINO CORDEIRO NETO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2777-2026-45",
+    "codigo": "PVM2777-2026",
+    "campus": "CMC",
+    "titulo": "Estudo dos impactos da inserção dos resíduos de poliestireno nas propriedades mecânicas dos tijolos de geopolímeros à base de metacaulinita.",
+    "orientador": "LUZ MARINA ANDRADE MARUOKA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2772-2026-46",
+    "codigo": "PVM2772-2026",
+    "campus": "CMC",
+    "titulo": "Análise exploratória do uso de modelos de inteligência artificial na tradução automática Tikuna-Português em cenários de baixo recurso",
+    "orientador": "RENILDO VIANA AZEVEDO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2685-2026-47",
+    "codigo": "PVM2685-2026",
+    "campus": "CMC",
+    "titulo": "ANÁLISE COMPARATIVA DE MÉTODOS NUMÉRICOS APLICADOS A SISTEMAS MECÂNICOS OSCILATÓRIOS",
+    "orientador": "FABIO RIVAS CORREIA CERVINO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2770-2026-48",
+    "codigo": "PVM2770-2026",
+    "campus": "CMC",
+    "titulo": "NotebookLM como apoio ao ensino de Física Moderna e Contemporânea na educação básica",
+    "orientador": "MARCELINO CORDEIRO NETO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2779-2026-49",
+    "codigo": "PVM2779-2026",
+    "campus": "CMC",
+    "titulo": "Tecnologia da Informação e Agricultura Familiar: análise do uso e impacto de uma plataforma digital de comercialização de produtos da agricultura familiar de comunidades rurais de Manaus",
+    "orientador": "RENILDO VIANA AZEVEDO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2726-2026-50",
+    "codigo": "PVM2726-2026",
+    "campus": "CMC",
+    "titulo": "Modelagem Numérica da Fotoquímica Ionosférica",
+    "orientador": "ALYSSON BRHIAN DE SOUZA MUNIZ SILVA",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CMC-PVM2768-2026-51",
+    "codigo": "PVM2768-2026",
+    "campus": "CMC",
+    "titulo": "Aplicação do NotebookLM na abordagem de Eletromagnetismo no Ensino Médio",
+    "orientador": "MARCELINO CORDEIRO NETO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMC-PVM2693-2026-52",
+    "codigo": "PVM2693-2026",
+    "campus": "CMC",
+    "titulo": "Influência dos Parâmetros de Impressão na Anisotropia e nas Propriedades Mecânicas de Peças Produzidas por Manufatura Aditiva: Uma Revisão Sistemática da Literatura",
+    "orientador": "FERNANDO ANTONIO ALVES DOS SANTOS JUNIOR",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "aprovado"
+  },
+  {
+    "id": "CPRF-PVF2689-2026-0",
+    "codigo": "PVF2689-2026",
+    "campus": "CPRF",
+    "titulo": "Bioeconomia circular: aproveitamento de biomassa de Lemna minor proveniente de sistemas de filtragem biológica como ingrediente em rações para juvenis de tambaqui Colossoma macropomum",
+    "orientador": "PAULO ADELINO DE MEDEIROS",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPRF-PVF2688-2026-1",
+    "codigo": "PVF2688-2026",
+    "campus": "CPRF",
+    "titulo": "Estudo da balneabilidade da Corredeira do Urubuí em Presidente Figueiredo-AM",
+    "orientador": "ALZIRA MIRANDA DE OLIVEIRA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPRF-PVF2687-2026-2",
+    "codigo": "PVF2687-2026",
+    "campus": "CPRF",
+    "titulo": "Qualidade da água e impacto do manejo produtivo em viveiros de piscicultura de tambaqui",
+    "orientador": "ALZIRA MIRANDA DE OLIVEIRA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPRF-PVF2729-2026-3",
+    "codigo": "PVF2729-2026",
+    "campus": "CPRF",
+    "titulo": "Relação entre a curva glicêmica e a frequencia de arraçoamento sobre o desempenho produtivo de juvenis de tambqui alimentados com ração contendo 32% de proteina bruta.",
+    "orientador": "ALZIRA MIRANDA DE OLIVEIRA",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPRF-PVF2701-2026-4",
+    "codigo": "PVF2701-2026",
+    "campus": "CPRF",
+    "titulo": "Avaliação de fontes alternativas e convencionais de nutrientes no crescimento inicial do camu-camu",
+    "orientador": "RAILMA PEREIRA MORAES",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPRF-PVF2736-2026-5",
+    "codigo": "PVF2736-2026",
+    "campus": "CPRF",
+    "titulo": "TURISMO E PESCA ESPORTIVA NO RESERVATÓRIO DA HIDRELÉTRICA DE BALBINA EM PRESIDENTE FIGUEIREDO-AM",
+    "orientador": "ELIAS DE OLIVEIRA MORAES",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPIN-PVP2696-2026-0",
+    "codigo": "PVP2696-2026",
+    "campus": "CPIN",
+    "titulo": "Cubo Sensorial 3D para aprendizagem de cores e vogais em alunos com TEA",
+    "orientador": "PATRIK MARQUES DOS SANTOS",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPIN-PVP2727-2026-1",
+    "codigo": "PVP2727-2026",
+    "campus": "CPIN",
+    "titulo": "Caracterização da pesca do camarão na comunidade de Santa Rita da Valeria, município de Parintins: formas de captura e qualidade da água",
+    "orientador": "VERA LUCIA DA SILVA MARINHO",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPIN-PVP2776-2026-2",
+    "codigo": "PVP2776-2026",
+    "campus": "CPIN",
+    "titulo": "Plataforma Digital de Mobilidade Acadêmica Colaborativa para Apoio à Permanência Estudantil no IFAM Campus Parintins",
+    "orientador": "ADELSON MENEZES PORTELA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPIN-PVP2679-2026-3",
+    "codigo": "PVP2679-2026",
+    "campus": "CPIN",
+    "titulo": "Sistema Inteligente de Otimização de Horários Acadêmicos Baseado no School Timetabling Problem com Modelagem por Restrições e Heurísticas Computacionais Aplicadas",
+    "orientador": "ADELSON MENEZES PORTELA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPIN-PVP2744-2026-4",
+    "codigo": "PVP2744-2026",
+    "campus": "CPIN",
+    "titulo": "FERRAMENTA DIGITAL DE ACESSIBILIDADE PARA ESTUDANTES COM DEFICIÊNCIA AUDITIVA.",
+    "orientador": "ERIKA CRISTINA DIAS DE OLIVEIRA BRELAZ",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPIN-PVP2700-2026-5",
+    "codigo": "PVP2700-2026",
+    "campus": "CPIN",
+    "titulo": "Análise e predição do desempenho acadêmico em cursos técnicos do IFAM/CPA utilizando Big Data: um estudo comparativo longitudinal",
+    "orientador": "CALIL GIBRAN IRAIORE CARVALHO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPIN-PVP2703-2026-6",
+    "codigo": "PVP2703-2026",
+    "campus": "CPIN",
+    "titulo": "Implantação de Empresa Júnior no IFAM/CPA: Potencial de Impacto na Formação Acadêmica e no Desenvolvimento Socioeconômico de Parintins/AM",
+    "orientador": "CALIL GIBRAN IRAIORE CARVALHO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CPIN-PVP2691-2026-7",
+    "codigo": "PVP2691-2026",
+    "campus": "CPIN",
+    "titulo": "OS EGRESSOS DO CURSO TECNOLÓGICO EM GESTÃO COMERCIAL DO IFAM – CAMPUS PARINTINS E A ATUAL OCUPAÇÃO PROFISSIONAL NO MERCADO.",
+    "orientador": "RICARDO SANTOS FONSECA",
+    "fomento": "DESCLASSIFICADO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CITA-PVI2634-2026-0",
+    "codigo": "PVI2634-2026",
+    "campus": "CITA",
+    "titulo": "Desempenho agronômico e viabilidade econômica de clones de Coffea canephora em segundo ano de cultivo consorciado no Amazonas",
+    "orientador": "ANDREY LUIS BRUYNS DE SOUSA",
+    "fomento": "CNPQ",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CLAB-PVL2720-2026-0",
+    "codigo": "PVL2720-2026",
+    "campus": "CLAB",
+    "titulo": "Análise da comercialização do cacau no município de Lábrea-AM: desafios locais e oportunidades de agregação de valor",
+    "orientador": "SAMANTA ONGARATTO GIL",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CLAB-PVL2732-2026-1",
+    "codigo": "PVL2732-2026",
+    "campus": "CLAB",
+    "titulo": "Análise do comportamento da oferta e da demanda de produtos locais comercializados na feira municipal de Lábrea-AM",
+    "orientador": "SAMANTA ONGARATTO GIL",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CLAB-PVL2724-2026-2",
+    "codigo": "PVL2724-2026",
+    "campus": "CLAB",
+    "titulo": "SISTEMA AQUOSO BIFÁSICO: OPERAÇÃO UNITÁRIA PARA EXTRAÇÃO LÍQUIDO-LÍQUIDO DE CORANTES SINTÉTICOS DE MATRIZ AQUOSA AMBIENTAL",
+    "orientador": "JUAN CARLOS QUINTAO",
+    "fomento": "VOLUNTÁRIO",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "COARI-PVB2752-2026-0",
+    "codigo": "PVB2752-2026",
+    "campus": "COARI",
+    "titulo": "Influência do WhatsApp e Instagram na Produção Textual dos alunos do IFAM Campus Coari",
+    "orientador": "JOSE RENAN DE SOUZA BELEM",
+    "fomento": "IFAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "COARI-PVB2716-2026-1",
+    "codigo": "PVB2716-2026",
+    "campus": "COARI",
+    "titulo": "Produção de mudas de uxi usando estacas de diferentes posições do ramo com aplicação de ácido naftalenoacético",
+    "orientador": "JHON PAUL MATHEWS DELGADO",
+    "fomento": "FAPEAM",
+    "discente": null,
+    "status": "APROVADO"
+  },
+  {
+    "id": "CMA-PVU2722-2026-0",
+    "codigo": "PVU2722-2026",
+    "campus": "CMA",
+    "titulo": "AVALIAÇÃO DA PRODUÇÃO DE HORTALIÇAS EM SISTEMA HIDROPÔNICO EM BANCADAS DE AREIA COM SOLUÇÕES NUTRITIVAS MINERAL E ORGÂNICA (BIOFERTILIZANTE)",
+    "orientador": "RONISCLEY PEREIRA SANTOS",
+    "fomento": "DESCLASSIFICADO",
+    "discente": null,
+    "status": "APROVADO"
+  }
+]
