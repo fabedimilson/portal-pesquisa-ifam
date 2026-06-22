@@ -7,14 +7,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-const getDirname = () => {
-  if (typeof __dirname !== 'undefined') return __dirname;
-  if (typeof import.meta !== 'undefined' && import.meta.url) {
-    return path.dirname(fileURLToPath(import.meta.url));
-  }
-  return process.cwd();
-};
-const __dirname_computed = getDirname();
+const __dirname_computed = process.cwd();
 
 const prisma = new PrismaClient();
 const app = express();
